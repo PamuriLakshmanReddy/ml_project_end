@@ -48,4 +48,4 @@ if __name__ == "__main__":
         a = 1 / 0
     except Exception as e:
         logging.info("Division by zero error")
-        raise CustomException(e, sys)  # <-- Corrected this line
+        raise CustomException(e, sys)
